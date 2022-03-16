@@ -1,15 +1,3 @@
-// /api/product              POST   create product              +++
-// /api/product              GET    get all product             +++ 
-// /api/product/category/:categoryId  GET    get products by category +++
-// /api/product/:id          GET    get product by id                 +++
-// /api/product/:id          PUT    update a product
-// /api/product/:id          DELETE delete a product
-
-// /api/category        POST   create category
-// /api/category        GET    get categories
-// /api/category/:id    PUT    update a category
-// /api/category/:id    DELETE delete a category
-
 import { Product } from './model/Product.js';
 import { Category } from './model/Category.js';
 import { sequelize } from './sequelize_connection.js';
